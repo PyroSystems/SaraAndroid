@@ -20,20 +20,10 @@
  *
  */
 
-package net.pyrosystems.mobile.android.saraandroid;
+package net.pyrosystems.mobile.android.saraandroid.ui.home;
 
-import android.os.Bundle;
+import androidx.lifecycle.ViewModel;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class MainActivity extends AppCompatActivity {
-
-    private AppBarConfiguration mAppBarConfiguration
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-    }
+public class HomeViewModel extends ViewModel {
+    // TODO: Implement the ViewModel
 }
